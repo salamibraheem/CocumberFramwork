@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@SauceInvalidLogin" 
+		tags="@amazonSearch" 
 		)
-public class TestRunner {
+public class TestRunner { 
  
 } 

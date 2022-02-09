@@ -6,12 +6,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.SauaceDemoLoginPage;
+import utilites.BrowserUtils;
 import utilites.Driver;
 import utilites.PropertiesReader;
 
 public class SauaceDemoLoginSteps {
 	
 	SauaceDemoLoginPage page = new SauaceDemoLoginPage();
+	BrowserUtils utils = new BrowserUtils();
+	
 	
 	// valid test #Starts
 	@Given("I am on the SauceDemo login page")
@@ -54,11 +57,12 @@ public class SauaceDemoLoginSteps {
 	@Then("I should not be logged in")
 	public void i_should_not_be_logged_in() {
 	    Assert.assertTrue(page.username.isDisplayed());
+	    Assert.assertFalse(utils.isElementPresent(page.inventoryPageProductText));
 	}
 	@Then("Error message should display {string}")
 	public void error_message_should_display(String errorMessage) {
 	    Assert.assertEquals(page.errorMessage.getText(), errorMessage);
-	    Assert.fail();
+	 
 	}
 
 	// Invalid test #Ends
