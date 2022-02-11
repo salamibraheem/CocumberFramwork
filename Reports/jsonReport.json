@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-10T05:58:42.697Z",
+        "start_timestamp": "2022-02-11T03:16:07.732Z",
         "before": [
           {
             "result": {
-              "duration": 1061671900,
+              "duration": 1079071500,
               "status": "passed"
             },
             "match": {
@@ -15,21 +15,551 @@
             }
           }
         ],
-        "line": 28,
-        "name": "User should be able to LogOut",
+        "line": 14,
+        "name": "User is able to search multiple data set",
         "description": "",
-        "id": "tradejournal-login;user-should-be-able-to-logout",
+        "id": "amazon-search;user-is-able-to-search-multiple-data-set;items;2",
         "after": [
           {
-            "embeddings": [
-              {
-                "data": "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CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAACVeAgAAAAAVOIhAAAAAFCJhwAAAABAJR4CAAAAAJV4CAAAAABU4iEAAAAAUImHAAAAAEAlHgIAAAAAlXgIAAAAAFTiIQAAAABQiYcAAAAAQCUeAgAAAADV/wINIrtfwOC6RwAAAABJRU5ErkJggg\u003d\u003d",
-                "mime_type": "image/png",
-                "name": "screenshot"
-              }
-            ],
             "result": {
-              "duration": 511439900,
+              "duration": 133793000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1908980500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "step_definition.AmazonLoginSteps.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 212178900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search item \"Coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.i_search_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28139200800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definition.AmazonSearchSteps.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66246900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Searched item \"Coffee mug\" should be displayed in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.searched_item_should_be_displayed_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          },
+          {
+            "name": "@SmokeTests"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T03:16:39.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 738421000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User is able to search multiple data set",
+        "description": "",
+        "id": "amazon-search;user-is-able-to-search-multiple-data-set;items;3",
+        "after": [
+          {
+            "result": {
+              "duration": 113530800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2116021200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "step_definition.AmazonLoginSteps.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210011300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search item \"Pretty coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pretty coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.i_search_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1417384100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definition.AmazonSearchSteps.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64284700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Searched item \"Pretty coffee mug\" should be displayed in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pretty coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.searched_item_should_be_displayed_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          },
+          {
+            "name": "@SmokeTests"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T03:16:43.999Z",
+        "before": [
+          {
+            "result": {
+              "duration": 752807300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User is able to search multiple data set",
+        "description": "",
+        "id": "amazon-search;user-is-able-to-search-multiple-data-set;items;4",
+        "after": [
+          {
+            "result": {
+              "duration": 126325900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1754815200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "step_definition.AmazonLoginSteps.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161314500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search item \"Cool coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cool coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.i_search_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1422766600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definition.AmazonSearchSteps.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34318600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Searched item \"Cool coffee mug\" should be displayed in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cool coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.searched_item_should_be_displayed_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          },
+          {
+            "name": "@SmokeTests"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T03:16:48.261Z",
+        "before": [
+          {
+            "result": {
+              "duration": 686086500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User is able to search multiple data set",
+        "description": "",
+        "id": "amazon-search;user-is-able-to-search-multiple-data-set;items;5",
+        "after": [
+          {
+            "result": {
+              "duration": 107988800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1794570300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "step_definition.AmazonLoginSteps.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149660200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search item \"Cute coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cute coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.i_search_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1504426000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definition.AmazonSearchSteps.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61474000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Searched item \"Cute coffee mug\" should be displayed in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cute coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.searched_item_should_be_displayed_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          },
+          {
+            "name": "@SmokeTests"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T03:16:52.571Z",
+        "before": [
+          {
+            "result": {
+              "duration": 672744900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User is able to search multiple data set",
+        "description": "",
+        "id": "amazon-search;user-is-able-to-search-multiple-data-set;items;6",
+        "after": [
+          {
+            "result": {
+              "duration": 137000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1822635800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "step_definition.AmazonLoginSteps.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273545600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search item \"Ugly coffee mug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ugly coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.i_search_item(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1646685000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definition.AmazonSearchSteps.i_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43610400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Searched item \"Ugly coffee mug\" should be displayed in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ugly coffee mug\"",
+                  "offset": 14
+                }
+              ],
+              "location": "step_definition.AmazonSearchSteps.searched_item_should_be_displayed_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonSearch"
+          },
+          {
+            "name": "@SmokeTests"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "         As a user, I should be able to search an item\n         and the searched item should be relavant to search",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AmazonSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 333053900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "step_definition.SauaceDemoLoginSteps.i_am_on_the_suace_demo_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-11T03:16:57.176Z",
+        "before": [
+          {
+            "result": {
+              "duration": 680971100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definition.Hook.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Valid login test",
+        "description": "",
+        "id": "sauce-demo-login;valid-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 160560600,
               "status": "passed"
             },
             "match": {
@@ -42,101 +572,84 @@
         "steps": [
           {
             "result": {
-              "duration": 250147000,
+              "duration": 129410400,
               "status": "passed"
             },
-            "line": 29,
-            "name": "I am on tradeJournal hame page",
+            "line": 10,
+            "name": "I enter valid username \"standard_user\" password \"secret_sauce\"",
             "match": {
-              "location": "step_definition.TradeJournalLoginSteps.i_am_on_trade_journal_hame_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 42264000,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I am click on the Logout buttom",
-            "match": {
-              "location": "step_definition.TradeJournalLoginSteps.i_am_click_on_the_logout_buttom()"
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 48
+                }
+              ],
+              "location": "step_definition.SauaceDemoLoginSteps.i_enter_valid_username_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Please sign in]\u003e but was:\u003c[Are you sure you want to log out?]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat step_definition.TradeJournalLoginSteps.i_should_directed_to_logout_page_following_a_message(TradeJournalLoginSteps.java:93)\r\n\tat ✽.I should directed to logout page following a message \"Are you sure you want to log out?\"(file:///C:/Users/SALAM/eclipse-workspace/CucumberFramwork/./src/test/resources/features/TradeJournalLogin.feature:31)\r\n",
-              "duration": 31290800,
-              "status": "failed"
+              "duration": 68968900,
+              "status": "passed"
             },
-            "line": 31,
-            "name": "I should directed to logout page following a message \"Are you sure you want to log out?\"",
+            "line": 11,
+            "name": "I click on the login button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Are you sure you want to log out?\"",
-                  "offset": 53
-                }
-              ],
-              "location": "step_definition.TradeJournalLoginSteps.i_should_directed_to_logout_page_following_a_message(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 105900,
-              "status": "skipped"
-            },
-            "line": 32,
-            "name": "I clicked on click on log out button",
-            "match": {
-              "location": "step_definition.TradeJournalLoginSteps.i_clicked_on_click_on_log_out_button()"
+              "location": "step_definition.SauaceDemoLoginSteps.i_click_on_the_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 32296400,
+              "status": "passed"
             },
-            "line": 33,
-            "name": "I should directed to sign in page following a message placed \"You have been signed out\"",
+            "line": 12,
+            "name": "I should be directed to inventory page",
+            "match": {
+              "location": "step_definition.SauaceDemoLoginSteps.i_should_be_directed_to_inventory_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18007700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "There should be 6 items in the page",
             "match": {
               "arguments": [
                 {
-                  "val": "\"You have been signed out\"",
-                  "offset": 61
+                  "val": "6",
+                  "offset": 16
                 }
               ],
-              "location": "step_definition.TradeJournalLoginSteps.i_should_directed_to_sign_in_page_following_a_message_placed(java.lang.String)"
+              "location": "step_definition.SauaceDemoLoginSteps.there_should_be_items_in_the_page(java.lang.Integer)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@Test"
+            "name": "@SauceValidLogin"
           },
           {
-            "name": "@TradeJournalLogOut"
+            "name": "@SmokeTests"
           }
         ]
       }
     ],
-    "name": "TradeJournal Login",
-    "description": "       I want to be able to login with valid credentials.",
-    "id": "tradejournal-login",
+    "name": "Sauce Demo Login",
+    "description": "         This feature focues on positive and nagetive \n         log in tests",
+    "id": "sauce-demo-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/TradeJournalLogin.feature",
-    "tags": [
-      {
-        "name": "@Test",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/SauceDemoLogin.feature",
+    "tags": []
   }
 ]
