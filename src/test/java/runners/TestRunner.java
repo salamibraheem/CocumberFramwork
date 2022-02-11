@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@amazonSearch" 
+		tags="@TradeJournalLogOut" 
 		)
 public class TestRunner { 
  
