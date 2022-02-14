@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@SmokeTests" 
+		tags="@AddTrade" 
 		)
 public class TestRunner { 
  

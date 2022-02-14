@@ -13,7 +13,7 @@ import utilites.PropertiesReader;
 public class AmazonLoginSteps {
 	
 	AmazonLoginPage amazonlp = new AmazonLoginPage();
-    // vaild test#St
+    // vaild test#Starts
 	@Given("I am on amazon home page")
 	public void i_am_on_amazon_home_page() {
 	    Driver.getDriver().get(PropertiesReader.getProperty("amazonUrl"));
@@ -33,7 +33,7 @@ public class AmazonLoginSteps {
 	public void i_should_be_directed_to_log_in_page() {
 		Assert.assertTrue(amazonlp.emailBox.isDisplayed());
 	}
-	
+	// valid test#Ends
 	
 	// invalid user test #STARTs
 	@Given("I am on the login page")

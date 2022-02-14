@@ -1,22 +1,21 @@
+@Regression @DemoQATests
 Feature: DemoQA is Good website
-Allows us to Pra
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+  Allows us to practice our skills with test automation
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+  @RadioTest @SmokeTest
+  Scenario Outline: User is able to select a radio button
+    Given I am on the radio button webpage "https://demoqa.com/radio-button"
+    When I select "<radioOptions>"
+    Then A text "<textResults>" displays
 
     Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+      | radioOptions | textResults                  |
+      | Yes          | You have selected Yes        |
+      | Impressive   | You have selected Impressive |
+
+      @DemoAlert1
+      Scenario: I am able to handle Alert
+      Given I an on the Alert page "https://demoqa.com/alerts"
+      When I click on AlertButton element 
+      Then I am able to accept the Alert
+      
