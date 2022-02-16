@@ -24,7 +24,7 @@ public class DButils {
 	private String dbHostName = "jdbc:mysql://database-1.cbf9mjnqgnfr.us-east-2.rds.amazonaws.com:3306/stock_trading_tracker";
 	private String username = "admin";
 	private String password = "Password123!";
-
+  
 	private Connection connection;
 	private Statement statement;
 	private ResultSet resultset;

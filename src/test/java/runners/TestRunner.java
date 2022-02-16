@@ -1,6 +1,7 @@
 package runners;
 
 import org.junit.runner.RunWith;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -11,8 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@AddTrade" 
+		tags="@AddTradeWithDataTable" 
 		)
 public class TestRunner { 
  
-} 
+}
