@@ -1,3 +1,4 @@
+@Regression
 Feature: Jqureyui Scenarios
          I want to practice with date picker
 
