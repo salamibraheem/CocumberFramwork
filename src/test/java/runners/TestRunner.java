@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@InsertDB" 
+		tags="@PostToAddPet" 
 		)
 public class TestRunner { 
  

@@ -11,7 +11,7 @@ public class AmazonSearchSteps {
 	
 	AmazonSearchPage SearchPage = new AmazonSearchPage();
 	
-	// Amazon search #Starts
+	// Amazon search #Starts 
 
 	AmazonSearchPage searchPage = new AmazonSearchPage();
 	// Amazon search #Starts

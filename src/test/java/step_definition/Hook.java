@@ -1,7 +1,7 @@
 package step_definition;
 
 import java.util.concurrent.TimeUnit;
-import org.openqa.selenium.OutputType;
+import org.openqa.selenium.OutputType;     
 import org.openqa.selenium.TakesScreenshot;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
