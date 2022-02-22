@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-20T05:10:25.103Z",
+        "start_timestamp": "2022-02-22T00:32:53.886Z",
         "before": [
           {
             "result": {
-              "duration": 1296626000,
+              "duration": 11721814400,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "As a user, I should be able to perform POST request to add new pet to store",
+        "line": 18,
+        "name": "As a user, I should not be able to perform POST request to invalid data structure",
         "description": "",
-        "id": "as-a-user-i-am-able-to-perform-http-request;as-a-user--i-should-be-able-to-perform-post-request-to-add-new-pet-to-store",
+        "id": "as-a-user-i-am-able-to-perform-http-request;as-a-user--i-should-not-be-able-to-perform-post-request-to-invalid-data-structure",
         "after": [
           {
             "result": {
-              "duration": 81635800,
+              "duration": 336191900,
               "status": "passed"
             },
             "match": {
@@ -37,19 +37,19 @@
             "result": {
               "status": "passed"
             },
-            "line": 11,
-            "name": "I have the POST request URL and valid request body",
+            "line": 19,
+            "name": "I have the POST request URL and invalid request body",
             "match": {
-              "location": "step_definition.PetStoreSteps.i_have_the_post_request_url_and_valid_request_body()"
+              "location": "step_definition.PetStoreSteps.i_have_the_post_request_url_and_invalid_request_body()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1277059900,
+              "duration": 1066413000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 20,
             "name": "I perform POST request to URL with request body",
             "match": {
               "location": "step_definition.PetStoreSteps.i_perform_post_request_to_url_with_request_body()"
@@ -58,28 +58,28 @@
           },
           {
             "result": {
-              "duration": 25088400,
+              "duration": 27622900,
               "status": "passed"
             },
-            "line": 13,
-            "name": "Response status code should be 200",
+            "line": 21,
+            "name": "Response status code should be 500 invalid input",
             "match": {
               "arguments": [
                 {
-                  "val": "200",
+                  "val": "500",
                   "offset": 31
                 }
               ],
-              "location": "step_definition.PetStoreSteps.response_status_code_should_be(java.lang.Integer)"
+              "location": "step_definition.PetStoreSteps.response_status_code_should_be_invalid_input(java.lang.Integer)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6274000,
+              "duration": 4983000,
               "status": "passed"
             },
-            "line": 14,
+            "line": 22,
             "name": "Content type is \"application/json\"",
             "match": {
               "arguments": [
@@ -94,20 +94,26 @@
           },
           {
             "result": {
-              "duration": 474390300,
+              "duration": 447218600,
               "status": "passed"
             },
-            "line": 15,
-            "name": "Response body match the request body",
+            "line": 23,
+            "name": "message should be \"something bad happened\"",
             "match": {
-              "location": "step_definition.PetStoreSteps.response_body_match_the_request_body()"
+              "arguments": [
+                {
+                  "val": "\"something bad happened\"",
+                  "offset": 18
+                }
+              ],
+              "location": "step_definition.PetStoreSteps.message_should_be(java.lang.String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@PostToAddPet"
+            "name": "@invalidPostRequest"
           }
         ]
       }
