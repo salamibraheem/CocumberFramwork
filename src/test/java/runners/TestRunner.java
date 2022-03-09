@@ -12,8 +12,8 @@ import io.cucumber.junit.CucumberOptions;
 		features="./src/test/resources/features",
 		glue="step_definition",
 		dryRun=false,
-		tags="@invalidPostRequest" 
+		tags="@AddTradeAndValidate" 
 		)
 public class TestRunner { 
  
-}
+}  
