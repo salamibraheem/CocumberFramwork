@@ -1,7 +1,5 @@
 package utilites;
 
-
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;

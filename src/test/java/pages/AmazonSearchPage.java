@@ -6,7 +6,6 @@ import org.openqa.selenium.support.PageFactory;
 
 import utilites.Driver;
 
-
 public class AmazonSearchPage {
 
 	public AmazonSearchPage() {
