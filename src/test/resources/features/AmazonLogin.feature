@@ -8,7 +8,7 @@ Feature: Amazon Login
     And The sign in button displays
     When I click on the sign in button
     Then I should be directed to log in page
-
+     
   @amazonLogin @amazonInvalidUser
   Scenario: User should not be directed to password field when invalid email is given
     Given I am on the login page
