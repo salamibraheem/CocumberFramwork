@@ -4,6 +4,6 @@ import org.testng.annotations.Test;
 
 public class AmazonLoginStepsTest {
   @Test
-  public void f() {
+  public void f() {   
   }
 }

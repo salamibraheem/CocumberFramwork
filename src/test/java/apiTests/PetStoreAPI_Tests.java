@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import utilites.Driver;
 
 import static io.restassured.RestAssured.*;
 
@@ -61,6 +62,8 @@ public class PetStoreAPI_Tests {
 	  .and().assertThat().body("id", Matchers.equalTo(petID))
 	  .and().assertThat().body("name", Matchers.equalTo(jsonObj.get("name")))
 	  .and().assertThat().body("status", Matchers.equalTo(jsonObj.get("status")));
+	  
+	
   }
   
   @Test()
